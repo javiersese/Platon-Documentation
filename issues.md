@@ -1,5 +1,7 @@
 ### September 26th 
 
 When I tried to install keystone in the Fatima computer, the command "sudo yo keystone" gave an error.
+
 The error message said can not access to a file in the directory (home)/.config/insight-node.
+
 The problem has solved doing: "sudo chmod 777 (home)/.config/insight-node
